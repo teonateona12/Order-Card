@@ -9,39 +9,32 @@ body {
   background-size: 100% 50%;
   background-color: #e0e8ff;
 }
-.div-one {
-  background-color: #f2f2f2;
-  border-radius: 11px;
-  margin: 48px;
-}
-h1 {
-  text-align: center;
-  color: #1f2e55;
-  font-weight: 900;
-  font-size: 28px;
+.main {
+  border-radius: 20px;
+  background-color: white;
+  width: 327px;
 }
 img {
   max-width: 100%;
   border-radius: 20px 20px 0 0;
 }
-.main {
-  border-radius: 20px;
-  background-color: white;
+h1 {
+  text-align: center;
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 22px;
 }
 .text {
   text-align: center;
   color: #717fa6;
-  line-height: 26px;
+  line-height: 25px;
   margin-top: 5px;
+  font-size: 15px;
 }
-.img-two {
+.div-one {
+  background-color: #f2f2f2;
+  border-radius: 11px;
   margin: 24px;
-}
-.name {
-  font-weight: 900;
-  color: #1f2e55;
-  margin: 0;
-  margin-top: 15px;
 }
 .div-two {
   display: flex;
@@ -55,7 +48,23 @@ a {
   margin: auto;
   color: #382ae1;
   font-weight: 700;
-  margin-right: 20px;
+  margin-right: 13px;
+}
+.img-two {
+  margin: 17px;
+}
+.text {
+  text-align: center;
+  color: #717fa6;
+  line-height: 26px;
+  margin-top: 5px;
+}
+.name {
+  font-weight: 900;
+  color: #1f2e55;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 14px;
 }
 .btn-one {
   background-color: #382ae1;
@@ -65,9 +74,11 @@ a {
   padding: 15px;
   width: 100%;
   border: #382ae1;
+  font-weight: 900;
+  font-size: 15px;
 }
 .btn-cont {
-  margin: 48px;
+  margin: 24px;
 }
 .btn-two {
   border: white;
@@ -75,6 +86,27 @@ a {
   color: #717fa6;
   text-align: center;
   width: 100%;
-  margin-top: 40px;
+  margin-top: 24px;
   font-weight: 900;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 1440px) {
+  .main {
+    width: 450px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  .text {
+    text-align: center;
+    color: #717fa6;
+    line-height: 26px;
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .name {
+    font-size: 16px;
+    margin-top: 25px;
+  }
 }
